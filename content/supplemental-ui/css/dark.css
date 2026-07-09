@@ -1,0 +1,54 @@
+/* Mid-gray theme for nookbag bundle */
+
+body.article {
+  background-color: #e0e0e0 !important;
+}
+
+.main-wrapper,
+.main {
+  background-color: #e0e0e0 !important;
+}
+
+.toolbar {
+  background-color: #d0d0d0 !important;
+  border-bottom-color: #b8b8b8 !important;
+}
+
+article.doc {
+  background-color: #e0e0e0 !important;
+}
+
+article.doc pre,
+article.doc .listingblock pre,
+article.doc .literalblock pre {
+  background-color: #d0d0d0 !important;
+  border-color: #b8b8b8 !important;
+}
+
+article.doc code {
+  background-color: #d0d0d0 !important;
+}
+
+article.doc .admonitionblock td.content,
+article.doc .admonitionblock {
+  background-color: #d0d0d0 !important;
+  border-color: #b8b8b8 !important;
+}
+
+article.doc .exampleblock > .content {
+  background-color: #d0d0d0 !important;
+  border-color: #b8b8b8 !important;
+}
+
+article.doc .sidebarblock {
+  background-color: #d0d0d0 !important;
+}
+
+article.doc table.tableblock thead th {
+  background-color: #d0d0d0 !important;
+}
+
+footer {
+  background-color: #d0d0d0 !important;
+  border-top-color: #b8b8b8 !important;
+}
