@@ -64,7 +64,7 @@ Switch to the *VS Code* tab at the top of the screen.
 
 [TIP]
 ====
-The Ansible extension and its automation coding assistant are pre-configured in this lab to use a *LiteMaaS* model endpoint -- Red Hat AI's Model-as-a-Service platform. The configuration is stored in VS Code's `settings.json` (both at the user level and in the workspace's `.vscode/settings.json`). You do not need to log in, authenticate, or provide any credentials; everything is already set up for you.
+In a normal setup, you would configure your own LLM provider and API key through the extension's *LLM providers* panel. In this lab, the coding assistant is pre-configured to use a *LiteMaaS* model endpoint -- Red Hat AI's Model-as-a-Service platform. The API key and model settings are injected into VS Code's `settings.json`, so you do not need to log in, authenticate, or provide any credentials.
 
 If you open the extension's *LLM providers* panel and it appears empty, this is expected -- the lab uses settings keys that the panel may not display. The coding assistant will still work correctly.
 ====
