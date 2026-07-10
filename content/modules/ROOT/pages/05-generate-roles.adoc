@@ -38,7 +38,7 @@ A playbook that uses a role looks like this:
   hosts: all
   become: true
   roles:
-    - system_setup
+    - system_setup_role
 ----
 
 One line replaces an entire playbook of tasks, variables, handlers, and templates.
@@ -65,7 +65,7 @@ Before generating a role, the extension needs to know which *collection* to plac
 
 . When prompted, paste this prompt — it is similar to the one you used to generate your playbook:
 +
-[source]
+[source,role="copy"]
 ----
 Create an Ansible role that sets up web and database infrastructure.
 
@@ -83,11 +83,11 @@ Include these tasks in order:
 Include a handler to restart Apache when needed, and use ansible.builtin modules throughout.
 ----
 
-. The automation coding assistant will analyze your prompt and show you a *role name* field and a step outline. Set the role name to *system_setup*, review the steps, then click *"Continue"*.
+. The automation coding assistant will analyze your prompt and show you a *role name* field and a step outline. Set the role name to *system_setup_role*, review the steps, then click *"Continue"*.
 
 . On the next page, review the generated files. When asked to select a collection, choose *lab.system_automation*, then click *"Save files"*.
 
-. The role will be created under `roles/system_setup/` in your workspace.
+. The role will be created under `roles/system_setup_role/` in your workspace.
 
 [TIP]
 ====
@@ -106,7 +106,7 @@ Notice how the prompt is almost identical to the one you used for playbook gener
 Stay in the *VS Code* tab.
 ====
 
-. In the VS Code file explorer, expand the `roles/system_setup/` directory that was just created. You should see several folders inside.
+. In the VS Code file explorer, expand the `roles/system_setup_role/` directory that was just created. You should see several folders inside.
 
 . Open `tasks/main.yml` — this contains the tasks, similar to what you see in your `system_setup.yml` playbook. But notice what is *missing*:
 +
@@ -185,7 +185,7 @@ cat > /home/rhel/ansible-files/role_playbook.yml << 'EOF'
   hosts: all
   become: true
   roles:
-    - system_setup
+    - system_setup_role
 EOF
 ----
 
