@@ -113,7 +113,7 @@ This ensures the generated playbook matches what the validation system expects.
 
 [NOTE]
 ====
-After you paste the prompt, the coding assistant will show a *simplified version* as a list of suggested steps. This is expected -- the extension summarizes your prompt for its step-by-step review. The generated playbook will still reflect the full detail from your original prompt. Review the suggested steps and click *"Create Playbook"* to proceed.
+After you paste the prompt, the coding assistant will show a *simplified version* as a list of suggested steps. This is expected -- the extension summarizes your prompt for its step-by-step review. You can *edit, reorder, add, or remove* steps in this list before generating the playbook. For this lab, the defaults should be fine -- review the suggested steps and click *"Create Playbook"* to proceed.
 ====
 
 . The playbook will open in a new tab. Review the output to confirm it includes:
