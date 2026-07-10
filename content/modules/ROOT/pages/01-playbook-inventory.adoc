@@ -4,8 +4,7 @@
 == Understanding the Lab Environment
 
 
-.Laboratory tips!
-====
+
 Before we begin, a few tips to improve your lab experience:
 
 . The instructions sidebar to the left can be resized to give you more space for the main panel.
@@ -16,14 +15,14 @@ image::showing-dropdown.png[Collapsible sections in the Showroom sidebar,link=se
 
 . Everything in this lab happens in the *VS Code* tab. To run terminal commands, open VS Code's integrated terminal by clicking *Terminal → New Terminal* from the menu bar, or press *Ctrl+`* (backtick).
 +
-image::showing-tabs.png[VS Code tab at the top of the screen,link=self,window=blank,width=700,title="Lab navigation tabs"]
+image::showing-tabs.png[VS Code tab at the top of the screen,link=self,window=blank,width=700,title="VS Code Terminal"]
 
 . Each code box has a copy-to-clipboard and execute feature — click the icon on the right side of the box to run the command directly in the terminal.
 
 . Use the image:next.png[Next, 50] button to move to the next challenge after completing all tasks. It validates your work before proceeding.
 
 . Use the image:solve.png[Solve, 55] button to auto-complete a challenge if you get stuck.
-====
+
 
 
 

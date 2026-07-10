@@ -80,7 +80,7 @@ When specifying conditionals, tell the coding assistant to use `when: inventory_
 
 *Use this prompt* (copy it exactly):
 
-[source]
+[source,role="copy"]
 ----
 Create an Ansible playbook named "Web and Database Infrastructure Setup" that targets all hosts and uses privilege escalation.
 
