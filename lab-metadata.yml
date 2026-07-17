@@ -1,0 +1,20 @@
+# lab-metadata.yml
+# Single Point of Truth for Lab Information
+
+lab:
+  name: "Writing your First playbook with Lightspeed"
+  shortname: "zt-writing-your-first-playbook-lightspeed"
+  maintainer: "Anshul Behl abehl@redhat.com"
+  
+  description:
+    summary: "Building your first playbooks with Ansible Lightspeed"
+    goal: "Ansible Playbook introduction"
+    concepts:
+     - "Lightspeed"
+    use_case: "Playbook Creation"
+    time_to_complete: "45"
+    
+  git_ref:
+    production: "main"
+    development: "dev"
+#
