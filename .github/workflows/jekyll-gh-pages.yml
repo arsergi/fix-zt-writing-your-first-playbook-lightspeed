@@ -4,7 +4,7 @@ name: github pages
 on:
   workflow_dispatch:
   push:
-    branches: [v0.0.1]
+    branches: [main]
     paths-ignore:
       - "README.adoc"
       - ".gitignore"
