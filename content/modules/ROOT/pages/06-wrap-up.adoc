@@ -134,6 +134,6 @@ Thank you for completing this lab. Now go automate something!
 .🐛 Encountered an issue?
 [%collapsible]
 =====
-If you have encountered an issue or noticed something not quite right, please open an issue on the https://github.com/rhpds/zt-writing-your-first-playbook-lightspeed/issues[Introduction to automation coding assistant repository^].
+If you have encountered an issue or noticed something not quite right, please open an issue on the https://github.com/ansible/workshops/issues[Introduction to automation coding assistant repository^].
 =====
 ======
