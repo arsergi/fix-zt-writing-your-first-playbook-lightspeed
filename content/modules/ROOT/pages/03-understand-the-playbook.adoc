@@ -213,6 +213,6 @@ Once you have reviewed each section, press the image:next.png[Next, 50] button t
 .🐛 Encountered an issue?
 [%collapsible]
 =====
-If you have encountered an issue or noticed something not quite right, please open an issue on the https://github.com/rhpds/zt-writing-your-first-playbook-lightspeed/issues[Introduction to automation coding assistant repository^].
+If you have encountered an issue or noticed something not quite right, please open an issue on the https://github.com/ansible/workshops/issues[Introduction to automation coding assistant repository^].
 =====
 ======
