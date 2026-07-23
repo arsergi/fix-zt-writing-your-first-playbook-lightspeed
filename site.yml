@@ -29,6 +29,3 @@ antora:
 
 output:
   dir: ./www
-
-output:
-  dir: ./www
