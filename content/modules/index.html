@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Writing Your First Playbook</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "Inter", sans-serif;
+      background: #fff;
+      color: #1a1a1a;
+      line-height: 1.6;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+    h1 { font-size: 1.4rem; font-weight: 600; margin-bottom: 0.3rem; }
+    .subtitle { color: #666; font-size: 0.9rem; margin-bottom: 2rem; }
+    h2 { font-size: 1rem; font-weight: 600; margin: 2rem 0 0.75rem; border-bottom: 1px solid #eee; padding-bottom: 0.4rem; }
+    ol { padding-left: 1.25rem; }
+    ol li { padding: 0.4rem 0; font-size: 0.9rem; }
+    ol li strong { font-weight: 600; }
+    ol li span { color: #666; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    td { padding: 0.4rem 0.6rem; border-bottom: 1px solid #eee; vertical-align: top; }
+    td:first-child { font-weight: 600; white-space: nowrap; width: 80px; }
+    td code { background: #f5f5f5; padding: 0.1rem 0.3rem; border-radius: 3px; font-size: 0.8rem; }
+    footer { margin-top: 3rem; font-size: 0.78rem; color: #999; }
+  </style>
+</head>
+<body>
+
+<h1>Writing Your First Playbook</h1>
+<p class="subtitle">Use the Ansible VS Code extension's AI coding assistant to generate and run playbooks and roles. ~45 min, 6 modules.</p>
+
+<h2>Modules</h2>
+<ol>
+  <li><strong>Meet Your Automation Coding Assistant</strong> <span>— verify the extension, explore the inventory</span></li>
+  <li><strong>Generate a Comprehensive Playbook</strong> <span>— craft a prompt, generate <code>system_setup.yml</code></span></li>
+  <li><strong>Understand Your Playbook</strong> <span>— walk through variables, tasks, templates, handlers</span></li>
+  <li><strong>Run and Verify the Playbook</strong> <span>— execute with ansible-navigator, check results</span></li>
+  <li><strong>Generate a Role</strong> <span>— generate a role, explore the directory structure</span></li>
+  <li><strong>Wrap-Up</strong> <span>— summary and next steps</span></li>
+</ol>
+
+<h2>Infrastructure</h2>
+<table>
+  <tr><td>control</td><td>Ansible control node with VS Code &middot; <code>devtools-ansible</code></td></tr>
+  <tr><td>node1</td><td>Web server target &middot; <code>rhel-9.6</code></td></tr>
+  <tr><td>node2</td><td>Web server target &middot; <code>rhel-9.6</code></td></tr>
+  <tr><td>node3</td><td>Database target &middot; <code>rhel-9.6</code></td></tr>
+</table>
+
+<footer>Red Hat Ansible Automation Platform</footer>
+
+</body>
+</html>
